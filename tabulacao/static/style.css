@@ -1,0 +1,51 @@
+body { font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif; background: #F4F6F8; margin: 0; color: #111827; }
+.header { background: white; border-bottom: 3px solid #1F4E78; padding: 16px 28px; }
+.header h1 { margin: 0; color: #1F4E78; font-size: 20px; }
+.header p { margin: 4px 0 0; color: #5F6B7A; font-size: 13px; }
+.container { max-width: 720px; margin: 24px auto; padding: 0 20px 60px; }
+.card { background: white; border: 1px solid #E0E4E8; border-radius: 10px; padding: 18px 20px; margin-bottom: 16px; }
+.card h2 { margin: 0 0 10px; color: #1F4E78; font-size: 15px; }
+.hint { font-size: 13px; color: #5F6B7A; margin: 0 0 12px; }
+.hidden { display: none; }
+input[type="file"] { width: 100%; padding: 10px; border: 1px solid #E0E4E8; border-radius: 6px; }
+.btn-primary { width: 100%; background: #1F4E78; color: white; border: none; border-radius: 8px; padding: 14px; font-weight: 700; cursor: pointer; }
+.btn-primary:hover { background: #163a58; }
+.campo-row { display: flex; justify-content: space-between; align-items: center; padding: 6px 0; border-bottom: 1px solid #EEF1F3; gap: 10px; }
+.campo-label.nao-identificado { color: #B8860B; font-weight: 700; }
+.campo-row select { padding: 6px; border-radius: 6px; border: 1px solid #D8DEE4; min-width: 200px; }
+.regra-box { background: #FFF8E6; border: 1px solid #F0DCA0; border-radius: 8px; padding: 10px 12px; font-size: 12px; color: #6B5A1E; margin-bottom: 14px; }
+.par-card { border: 1px solid #E0E4E8; border-radius: 8px; padding: 12px; margin-bottom: 10px; }
+.par-motivo { font-size: 12px; color: #B8860B; font-weight: 700; margin-bottom: 6px; }
+.par-registros { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 8px; }
+.par-registro { background: #F7F9FA; border-radius: 6px; padding: 8px; font-size: 12px; }
+.par-acoes label { display: inline-flex; gap: 4px; align-items: center; font-size: 12px; margin-right: 10px; }
+.btn-download { display: inline-block; background: #1F4E78; color: white; text-decoration: none; padding: 12px 20px; border-radius: 8px; font-weight: 700; }
+
+/* --- Rodapé --- */
+.footer {
+  max-width: 720px;
+  margin: 8px auto 32px;
+  padding: 0 20px;
+  text-align: center;
+}
+.footer-line {
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin: 0 auto 14px;
+  background: linear-gradient(90deg, #1F4E78, #2E86AB);
+  border-radius: 3px;
+}
+.footer p {
+  margin: 0;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  color: #9AA5B1;
+  font-style: italic;
+}
+.footer strong {
+  color: #1F4E78;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
